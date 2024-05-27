@@ -1,0 +1,55 @@
+#navbarSupportedContent{
+    padding-left: 240px;
+    cursor: pointer;
+}
+
+.searchIcon{
+    height: 30px;
+    width: 30px;
+    padding-right: 5px;
+    margin-top: 5px;
+}
+
+.basket{
+    padding-right: 10px;
+}
+
+.nav-right{
+    display: flex;
+    align-items: center;
+    position: relative;
+    
+}
+
+.sign_in{
+    display: flex;
+    align-items: center;
+    width: 100px;
+    border: 1px solid green;
+    transition: 0.3s;
+}
+
+.navbar .active{
+    padding-bottom: 2px;
+    border-bottom: 2px solid #49557e;
+    
+}
+
+.navbar-nav{
+    gap: 75px;
+}
+
+.basket{
+    position: relative;
+}
+
+
+.dot{
+    position: absolute;
+    min-width: 10px;
+    min-height: 10px;
+    background-color: tomato;
+    border-radius: 5px;
+    top: -3px;
+    right: 350px;
+}
